@@ -44,10 +44,9 @@ article {
     text-align: center;
     width: 580px;
     float: right;
-    height: 1200px;
+    height: 1500px;
     margin: 0em;
     padding: 0em;
-    border: 1px dotted black;
 }
 article h3 {
     text-align: center;
@@ -57,12 +56,13 @@ article h3 {
 article p {
     text-align: center;
     font-size: 90%;
+    height: 60px;
     padding: 0em 0em .5em;
     margin: 0em;
 }
 article img {
-    border: 3px solid white;
-    padding: 1em;
+    margin: 0em;
+    padding: 0em;
 }
 /* Styles for the aside (nav bar) */
 aside {
@@ -71,8 +71,7 @@ aside {
     float: left;
     margin: 0em;
     padding: 0em;
-    height: 1200px;
-    border: 1px dotted black;
+    height: 1500px;
 }
 aside h3 {
     text-align: center;
@@ -82,12 +81,13 @@ aside h3 {
 aside p {
     text-align: center;
     font-size: 90%;
+    height: 60px;
     padding: 0em 0em .5em;
     margin: 0;
 }
 aside img {
-    border: 3px solid white;
-    padding: 1em;
+    margin: 0em;
+    padding: 0em;
 }
 /* styles for the 2nd aside */
 div h3 {
@@ -101,13 +101,13 @@ div {
     width: 100%;
     margin: 0em;
     padding: 0em;
-    height: 350px;
-    border: 1px dotted black;
+    height: 425px;
 }
 div p {
     float: left;
     width: 30%;
-    padding: 0em 0em 0em 14em;
+    text-align: center;
+    padding: 5em 0em 0em 14em;
 }
 div img {
     float: right;
@@ -118,7 +118,6 @@ section {
     clear: both;
     text-align: center;
     padding: 1em 0em 5em 0em;
-    border: 1px dotted black;
 }
 section h3 {
     float: left;
