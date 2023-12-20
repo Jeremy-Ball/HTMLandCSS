@@ -203,7 +203,7 @@ footer p {
       font-size: 75%;
     }
 }
-    @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 412px) {
     body {
       width: 95%;
       }
