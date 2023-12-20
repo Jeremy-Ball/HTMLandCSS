@@ -209,6 +209,7 @@ footer p {
       }
     header {
       height: 4.5em;
+      font-size: 80%;
     }
     picture img {
       min-width: 65%;
@@ -217,5 +218,13 @@ footer p {
     article {
       max-width: 33%;
       margin: 8% 1% 0 0;
+    }
+    article h3 {
+      margin: 35% 0 0 0;
+      font-size: 150%;
+    }
+    article p {
+      margin: 10px 0 0 0;
+      font-size: 70%;
     }
 }
