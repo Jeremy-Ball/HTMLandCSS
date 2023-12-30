@@ -1,221 +1,123 @@
 /* Styles for the elements */
 html {
-  background-color: darkgreen;
-}
-body {
-  font-family: Garamond, serif;
-  font-size: 100%;
-  width: 1500px;
-  margin: 2em auto;
-  padding: .5em 0;
-  background-color: white;
-  border-radius: 25px;
+  height: 150%;
+  background: linear-gradient(to top, seagreen 0%, slategray 100%)
 }
 a:focus, a:hover {
-  font-style: bold;
+  font-style: italic;
 }
-/* Styles for the header */
-header {
-  width: 60%;
-  height: 4em;
-  margin: 1em auto;
-  position: relative;
-  z-index: 2;
-  /*background: rgb(255, 228, 225, .6);*/
-  background-color: lightgray;
-  border-radius: 10px;
+/*styles for the body */
+.body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  font-family: Garamond, serif;
+  font-size: 100%;
+  width: 95%;
+  margin: 1% auto;
+  padding: 0;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px;
 }
-header h2 {
-  font-size: 250%;
-  color: black;
-  padding: .25em 0em 0em 1em;
-  margin: 0em 0em 0em 0em;
-  float: left;
-}
-header h3 {
-  font-size: 130%;
-  color: black;
-  padding: 0 3em 0 1em;
-  float: right;
-}
-main h1 {
-  text-align: center;
+/*styles for the header */
+.header {
+  width: 50%;
   margin: 0;
   padding: 0;
 }
-/* Styles for the aside (images) */
-picture img {
-  float: left;
-  max-width: 900px;
-  margin: 2.5% 2.5% 2.5% 5%;
+header h1 {
+  margin: 1% 0 0 25%;
   padding: 0;
 }
-/* Styles for article */
-article {
+/*styles for the nav */
+.nav {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+nav p {
   float: right;
-  height: 200px;
-  max-width: 20%;
-  margin: 10.5% 5% 0 2.5%;
+  margin: 1% 10% 0 0;
   padding: 0;
-  position: relative;
-  z-index: 2;
-  background: lightgray;
-  border-radius: 10px;
+  font-size: 120%;
 }
-article h3 {
-  text-align: center;
-  font-size: 150%;
+/*styles for the section */
+.section {
+  width: 100%;
   margin: 2% 0;
+  padding: 0;
+}
+section h2 {
+  font-size: 130%;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 98%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+picture {
+  display: flex;
+  align-items: center;
+  width: 49.8%;
+  height: 500px;
+  margin: 0 0 0 1%;
+  padding: 0;
+}
+picture img {
+  max-width: 100%;
+  box-shadow: 10px 10px 10px;
+  border: 1px solid black;
+}
+background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 1% auto;
+  border-radius: 100px;
+  background: slategray;
+}
+article {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-size: 140%;
+  text-align: center;
+  width: 80%;
+  margin: 2%;
+  padding: 0;
 }
 article p {
-  margin: 3%;
+  font-size: 100%;
+  width: 80%;
+  margin: 0;
   padding: 0;
-  position: relative;
-  z-index: 2;
 }
 /* Styles for the footer */
-footer {
-  clear: both;
-  height: 1em;
+.footer {
+  width: 100%;
+  margin: 5% 0 .25%;
+  padding: 0;
 }
 footer p {
+  font-size: 70%;
   text-align: center;
-  color: black;
-}
-@media only screen and (max-width: 1700px){
-  body {
-    width: 90%;
-  }
-  picture img {
-    float: left;
-    margin: 2.5% 2.5% 2.5% 5%;
-    padding: 0;
-    max-width: 50%;
-  }
-  article {
-    float: right;
-    height: 25%;
-    margin: 8% 5% 0 2.5%;
-    padding: 0;
-    max-width: 30%;
-  }
-}
-
-@media only screen and (max-width: 1609px) {
-  header {
-    height: 3em;
-    padding: 0 1em 0 1em;
-  }
-  header h2 {
-    margin: 0;
-    padding: 0;
-  }
-  header h3 {
-    margin: .75em 0 0 0;
-    padding: 0;
-  }
-}
-@media only screen and (max-width: 1381px) {
-    header {
-        height: 3em;
-        padding: 0 1em;
-
-    }
-    header h2 {
-        font-size: 190%;
-        margin: 0;
-        padding: 0;
-    }
-    header h3 {
-        font-size: 110%;
-        margin: 0 0 0 50%;
-        padding: 0;
-        float: none;
-    }
-}
-@media only screen and (max-width: 900px) {
-  header {
-    height: 2em;
-    padding: 0 1em;
-
-  }
-  header h2 {
-    font-size: 150%;
-    margin: 0;
-    padding: 0;
-  }
-  header h3 {
-    font-size: 90%;
-    margin: 0 0 0 40%;
-    padding: 0;
-    float: none;
-  }
-  picture img {
-    min-width: 60%;
-    min-height: 200px;
-    margin: 8% 0 0 5%;
-  }
-  article {
-    float: right;
-    height: 200px;
-    max-width: 30%;
-    margin: 8% 5% 0 0;
-  }
-    
-}
-@media only screen and (max-width: 650px) {
-  body {
-    padding: .5em 0;
-        
-    }
-    header {
-      width: 90%;
-      height: 4em;
-      margin: 0 auto;
-    }
-    header h2 {
-      float: none;
-      text-align: center;
-      font-size: 150%;
-      margin: 1% 0 0;
-      padding: 1% 0 0;
-    }
-    header h3 {
-      float: none;
-      text-align: center;
-      font-size: 90%;
-      margin: 1% 0;
-      padding: 0;
-    }
-    main h1 {
-      text-align: center;
-      font-size: 150%;
-      margin: 0 2.5%;
-    }
-    article {
-      font-size: 75%;
-    }
-    footer {
-      margin: 0;
-      padding: .5em 0 0;
-    }
-    footer p {
-      font-size: 75%;
-    }
-}
-    @media only screen and (max-width: 400px) {
-    body {
-      width: 95%;
-      }
-    header {
-      height: 4.5em;
-    }
-    picture img {
-      min-width: 65%;
-      margin: 8% 0 0 1%;
-    }
-    article {
-      max-width: 33%;
-      margin: 8% 1% 0 0;
-    }
+  margin: 0;
+  padding: 0;
 }
