@@ -193,4 +193,57 @@ footer p {
     margin: 0;
     padding: 0;
   }
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 80%;
+  }
+  .body {
+    padding: 0;
+    box-shadow: 5px 5px 5px;
+  }
+  /*styles for the header */
+  .header {
+    width: 90%;
+    margin: 1% auto;
+  }
+  header h1 {
+    text-align: center;
+  }
+  /*styles for the nav */
+  .nav {
+    width: 90%;
+    margin: 1% auto;
+  }
+  nav p {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 1% 6%;
+    padding: 0;
+    font-size: 90%;
+  }
+  /*styles for the section */
+  .section {
+    width: 90%;
+    margin: 1% auto;
+  }
+  section h2 {
+    text-align: center;
+    font-size: 120%;
+  }
+  picture {
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: .25px solid black;
+    width: 95%;
+    height: auto;
+    margin: 5% auto;
+  }
+  picture img {
+    max-width: 100%;
+    box-shadow: 5px 5px 10px;
+  }
+  article {
+    width: 95%;
+  }
 }
